@@ -210,6 +210,7 @@ dist = (rxy) / abs(scale);
 ### ??: FCT_DLBT
 ```c
 #elif defined FCT_DLBT
+
 vec3 npos = pos;
 //npos.xz *= 0.6;
 float noise = noise3d(npos * 0.07) * 10.;
